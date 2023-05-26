@@ -16,8 +16,8 @@ app.get('/', function(req, res){
 */
 
 const suppliers = [
-    {id: 0, nome: "Val", cnpj : 1324, telefone: "123456789", email: "qualquer coisa", localizacao: "Mirassol"},
-    {id: 1, nome: "Valterci", cnpj : 5678, telefone: "123456789", email: "qualquer coisa", localizacao: "Mirassol"}
+    {id: 0, nome: "Val", cnpj : "1324", telefone: "123456789", email: "qualquer coisa", localizacao: "Mirassol"},
+    {id: 1, nome: "Valterci", cnpj : "5678", telefone: "123456789", email: "qualquer coisa", localizacao: "Mirassol"}
 ]
 
 const endpoint = "/suppliers";
